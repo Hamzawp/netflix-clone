@@ -1,0 +1,56 @@
+.navbar{
+    display: flex;
+}
+#logo{
+    margin-right: 64.5vw;
+    margin-top: -1.5rem;
+    margin-left: 1rem;
+}
+.btn{
+    background-color: #e50914;
+    font-size: 15px;
+    padding: 7px 17px;
+    height: 33px;
+    width: 85px;
+    margin-top: 1%;
+    margin-left: 2.5%;
+    border-radius: 5px;
+}
+.language{
+    background-color: black;
+    margin-top: 1%;
+    height: 30px;
+    width: 90px;
+    border: 1px solid rgb(189, 189, 189);
+}
+#lang{
+    background-color: black;
+    color: azure;
+}
+i{
+    color: white;
+}
+select{
+    border: 0;
+    margin-top: 6%;
+    font-size: 0.8rem;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 493px;
+    align-items: center;
+    padding: 3px 200px;
+    background: rgba(0,0,0,.4) ;
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%, rgba(0,0,0,.8));
+}
+#home::before{
+    content:"";
+    background:url(/home.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;    
+}
