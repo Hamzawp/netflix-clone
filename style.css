@@ -1,47 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .navbar{
     display: flex;
+    position: absolute;
 }
 #logo{
-    margin-right: 64.5vw;
-    margin-top: -1.5rem;
+    margin-right: 65.5vw;
+    margin-top: -1rem;
     margin-left: 1rem;
 }
 .btn{
     background-color: #e50914;
+    color: white;
     font-size: 15px;
-    padding: 7px 17px;
+    padding: 6px 17px;
     height: 33px;
-    width: 85px;
-    margin-top: 1%;
+    width: 110px;
+    margin-top: 2%;
     margin-left: 2.5%;
     border-radius: 5px;
 }
 .language{
+    display: flex;
     background-color: black;
-    margin-top: 1%;
-    height: 30px;
-    width: 90px;
+    margin-top: 2%;
+    height: 35px;
+    width: 110px;
     border: 1px solid rgb(189, 189, 189);
 }
 #lang{
     background-color: black;
     color: azure;
 }
+option{
+    background-color: darkgray;
+}
 i{
+    position: absolute;
+    font-size: 11px;
     color: white;
+    margin-top: 0.8%;
+    margin-left: 0.5%;
+    z-index: 1;
 }
 select{
-    border: 0;
-    margin-top: 6%;
-    font-size: 0.8rem;
+    position: relative;
+    height: 35px;
+    width: 89px;
+    margin-top: 0%;
+    margin-left: 20%;
+    padding-left: 17px;
+    font-size: 0.9rem;
+    margin-left: -1px;
 }
 #home{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    height: 493px;
+    height: 754px;
     align-items: center;
-    padding: 3px 200px;
     background: rgba(0,0,0,.4) ;
     background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%, rgba(0,0,0,.8));
 }
@@ -49,8 +67,58 @@ select{
     content:"";
     background:url(/home.jpg) no-repeat center center/cover;
     position: absolute;
-    height: 100%;
+    height: 99%;
     width: 100%;
-    z-index: -1;
-    opacity: 1;    
+    z-index: -1;    
+}
+.head{
+    position: absolute;
+    color: white;
+    padding: 75px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11.3%;
+}
+.head h1{
+    font-size: 4rem;
+    margin: 0px 95px;
+    padding: 0px 235px;
+}
+.head h3{
+    font-size: 1.625rem;
+    margin: 16px 75px;
+    font-weight:100;
+}
+.head p{
+    font-size: 1.2rem;
+    margin: 0px 117.8px;
+    padding: 0px 47.5px 20px;
+    padding-bottom: 0px;
+    margin-top: 25px;
+}
+input
+{
+    position: absolute;
+    width: 495px;
+    height: 65.9px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.head a
+{
+    margin-left: 33.6%;
+    margin-top: 1%;
+    padding: 1.14rem 2rem;
+    font-size: 2rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-right: 1%;
+    box-shadow: 0px 5px 3px rgba(0,0,0,.45);
+    display: inline-block;
+    background-color: #E50914;
+    color: white;
+    text-decoration: none;
+    outline: none;
 }
